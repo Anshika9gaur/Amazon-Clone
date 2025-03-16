@@ -14,7 +14,7 @@ justify-content: space-evenly;
 }
 .navbar-logo{
     height:50px;
-    width:114px;
+    width:7%;
     margin-left:10px;
 }
 .logo{
@@ -29,14 +29,14 @@ justify-content: space-evenly;
 }/*box 2*/
 .nav-address{
     height:35px;
-    width:84px;
+    width:6%;
     padding-top:10px;
     padding-bottom:5px;
     padding-left:5px;
 }
 .country{
     color:#ffffff;
-    font: size 0.85rem;
+    font-size:0.85rem;
 }.deliver_to{
     color:#cccccc;
     font-size: 0.75rem;
@@ -55,6 +55,7 @@ align-items:center;
 border:2px solid transparent;
 margin-left:5px;
 margin-right:5px;
+width:60%;
 }.search-bar:hover{
     border:2px solid #faa940;
 }
@@ -100,7 +101,7 @@ margin-right:5px;
     align-items:end;
     justify-content:center;
     height:40px;
-    width:60px;
+    width:4%;
     padding-bottom:10px;
     font-size:0.85rem;
     font-weight:700;
@@ -110,20 +111,20 @@ margin-right:5px;
    font-size:0.85rem;
    font-weight:700;
    height:35px;
-   width:77px;
+   width:6%;
    padding-top:10px;
    padding-bottom:5px;
    padding-left:7px;
    margin-right:10px
 }.sign-in{
     height:35px;
-    width:130px;
+    width:9%;
     padding-top:10px;
     padding-bottom:5px;
     padding-left:7px;
 }.return{
     height:35px;
-    width:69px;
+    width:6%;
     padding-top:10px;
     padding-bottom:5px;
     padding-left:7px;
