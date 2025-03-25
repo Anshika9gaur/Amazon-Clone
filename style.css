@@ -6,7 +6,8 @@
 .navbar{
     background-color:#0f1111;
     height:60px;
-    width:100%;
+    min-height:50px;
+    max-width:100vw;
     color:#ffffff;
     display:flex;
     align-items:center;
@@ -14,7 +15,7 @@ justify-content: space-evenly;
 }
 .navbar-logo{
     height:50px;
-    width:7%;
+    width:7vw;
     margin-left:10px;
 }
 .logo{
@@ -29,7 +30,7 @@ justify-content: space-evenly;
 }/*box 2*/
 .nav-address{
     height:35px;
-    width:6%;
+    width:6vw;
     padding-top:10px;
     padding-bottom:5px;
     padding-left:5px;
@@ -39,6 +40,8 @@ justify-content: space-evenly;
     font-size:0.85rem;
 }.deliver_to{
     color:#cccccc;
+    min-width:90px;
+    max-width:150px;
     font-size: 0.75rem;
     margin-left:12px;
 }.location-icon{
@@ -55,12 +58,12 @@ align-items:center;
 border:2px solid transparent;
 margin-left:5px;
 margin-right:5px;
-width:60%;
+width:60vw;
 }.search-bar:hover{
     border:2px solid #faa940;
 }
 .select{
-    width:52px;
+    width:3rem;
     height:39px;
     border-top-left-radius:4px;
     border-bottom-left-radius:4px;
@@ -70,7 +73,7 @@ width:60%;
     padding-left:7px;
     padding-right:7px;
 }.search-am{
-    width:700px;
+    width:89rem;
     height:39px;
     background-color:#ffffff;
     color:#0f1111;
@@ -81,7 +84,7 @@ width:60%;
 }.search-icon{
     background-color:#faa940;
     height:39px;
-    width:45px;
+    width:5rem;
     display:flex;
    justify-content:center;
    align-items:center;
@@ -101,7 +104,7 @@ width:60%;
     align-items:end;
     justify-content:center;
     height:40px;
-    width:4%;
+    width:4vw;
     padding-bottom:10px;
     font-size:0.85rem;
     font-weight:700;
@@ -109,6 +112,7 @@ width:60%;
     font-size:30px;
 }.cart{
    font-size:0.85rem;
+   white-space:nowrap;
    font-weight:700;
    height:35px;
    width:6%;
@@ -118,6 +122,7 @@ width:60%;
    margin-right:10px
 }.sign-in{
     height:35px;
+    white-space: nowrap;
     width:9%;
     padding-top:10px;
     padding-bottom:5px;
@@ -128,19 +133,23 @@ width:60%;
     padding-top:10px;
     padding-bottom:5px;
     padding-left:7px;
+    white-space:nowrap;
 }/* Panel*/
 .panel{
     height:39px;
+    width:100vw;
     background-color:#232f3e;
     display:flex;  
     font-size:0.85rem;
     color:#ffffff;
     align-items:center;
+    white-space:nowrap;
 }.panel-others{
     display:flex;
     width:90%; 
 }.panel-all i{
     font-size:17px;
+   
 }.panel-all{
     padding-right:10px;
     height:30px;
@@ -154,6 +163,7 @@ width:60%;
     padding-right:10px;
     height:29px;  
     padding-top:10px;
+    white-space:nowrap;
 }/* Hero section*/
 .hero-section{
     background-image:url("hero_section.jpg");
